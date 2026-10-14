@@ -1,0 +1,6 @@
+# Release 大文件暂存区（通过 GitHub Release 附件分发）
+_release_assets/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db

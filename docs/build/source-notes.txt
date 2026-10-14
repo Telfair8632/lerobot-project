@@ -1,0 +1,11 @@
+All claims in the deck are derived from the local project materials supplied by the user.
+
+Primary sources:
+- lerobot_engineering_journal.md — project scope, hardware, dataset, training milestones, deployment observations, root-cause analysis, and roadmap.
+- training-pipeline-troubleshooting.md — reproducible engineering troubleshooting details, version compatibility, and end-of-training verification.
+- 050000_clean/train_config.json and 050000_clean/config.json — model and training configuration.
+- 050000/training_state/training_step.json — checkpoint reached step 50,000.
+- rgb_pick_place_v1.zip/meta/info.json — raw dataset metadata. The archive preserves a pre-cleanup count of 50 episodes/12,883 frames; the project journal reports the cleaned and converted usable set as 49 episodes/12,625 frames. The deck uses the latter for experimental results and explicitly states the archive/version discrepancy.
+- 基线模型后学习与反思记录.docx — reflection on compounding errors / distribution shift and DAgger as a future corrective loop.
+
+No external claims or external visual assets are used.
