@@ -65,3 +65,9 @@ Or download manually from the Releases page.
 - Archived October 2026; content spans May–October 2026.
 - `lerobot.zip` is kept as a verbatim snapshot of the working codebase at training time (upstream LeRobot + the 4 local patches listed in the engineering journal, plus custom helper scripts; comments inside are as-written). The patches are also documented in [`logs/engineering-journal.md §9`](logs/engineering-journal.md).
 - The raw dataset ZIP preserves a pre-cleanup count of 50 episodes / 12,883 frames; experimental conclusions use the cleaned, converted set of 49 episodes / 12,625 frames (see the journal, Problems 8–9).
+
+## License
+
+MIT for the code and documentation in this repository — see [LICENSE](LICENSE).
+
+Note: `code/lerobot.zip` is a verbatim snapshot of the upstream [LeRobot](https://github.com/huggingface/lerobot) codebase (Apache-2.0) plus local patches, and remains under its own license.
